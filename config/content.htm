@@ -1,50 +1,31 @@
 <h1>About</h1>
+<hr/>
 <p>協同產品設計實習</p>
-<p>網頁: <a href="https://mde.tw/cd2022">https://mde.tw/cd2022</a></p>
-<p>倉儲: <a href="https://github.com/mdecycu/cd2022">https://github.com/mdecycu/cd2022</a></p>
-<p>討論區: <a href="https://gitter.im/mdecourse/cd2022">https://gitter.im/mdecourse/cd2022</a></p>
-<p>導引: <a href="https://mde.tw/cd2022_guide">https://mde.tw/cd2022_guide</a></p>
-<h4></h4>
+<p>網頁: <a href="https://40723146.github.io/cd2022/content/index.html">https://40723146.github.io/cd2022/content/index.html</a></p>
+<p>倉儲: <a href="https://github.com/40723146/cd2022">https://github.com/40723146/cd2022</a></p>
+<p>小組倉儲:<a href="https://40923221.github.io/cd2022bg4/content/index.html">https://40923221.github.io/cd2022bg4/content/index.html</a></p>
+<hr/>
+<p></p><h2>Create Page</h2>
+<hr/>
+<p>1. 在 github 建立倉儲<span>，</span>git clone 到近端</p>
+<p><span style="color: #ffffff;">1</span></p>
+<p>2. 參考 <a href="https://github.com/mdecycu/cd2022">https://github.com/mdecycu/cd2022</a> 加入除了 cmsimde 目錄外的所有內容</p>
+<p>    git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde建立 cmsimde 目錄<span>，</span></p>
+<p>    並從 github 取下子模組內容.</p>
+<p><span style="color: #ffffff;">1</span></p>
+<p>3. 在近端維護時, 更換目錄到倉儲中的 cmsimde<span>，</span></p>
+<p>    以 python wsgi.py 啟動近端網際伺服器，</p>
+<p>    進到網頁修改內容，修改完成後以 generate_pages 轉為靜態內容<span>，</span>將內容推到遠端</p>
+<p><span style="color: #ffffff;">1</span></p>
+<p>P.S. 之後若要以 git clone 取下包含 submodule 的所有內容<span>，</span></p>
+<p>      執行:git clone --recurse-submodules<span> </span><a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
+<hr/>
 <p></p>
-<h2>Realizable</h2>
-<p>以 4 人一小組, 兩小組成一大組的方式, 透過計算機程式方法 (執行運算及操控) 與電腦輔助設計的建模流程, 完成可實現之機電整合系統設計 (Realizable Mechatronic System Design).</p>
-<p>機械元件建模工具:</p>
-<p style="padding-left: 30px;"><a href="https://mde.tw/cad2021/content/Compile%20Solvespace.html">Solvespace</a> (開源)、<a href="https://mde.tw/cad2021_hw/content/NX1980.html">NX1980</a> (高端)、<a href="https://www.onshape.com/en/">Onshape</a> (全雲端)</p>
-<p>電子電機控制與感測模擬工具:</p>
-<p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4842-3462-4">Beginning Robotics with Raspberry Pi and Arduino</a> (在校園網路下載)</p>
-<p style="padding-left: 30px;">Wokwi (web-based):</p>
-<p style="padding-left: 60px;"><a href="https://wokwi.com/">https://wokwi.com/</a></p>
-<p style="padding-left: 60px;"><a href="https://github.com/wokwi">https://github.com/wokwi</a></p>
-<p style="padding-left: 60px;"><a href="https://github.com/wokwi">https://github.com/wokwi</a></p>
-<p style="padding-left: 60px;"><a href="https://wokwi.com/arduino/libraries/Servo/Sweep">Servo motor 控制</a></p>
-<p style="padding-left: 30px;"><a href="https://www.sites.google.com/site/unoardusim/services">Unoardusim</a> (單機)</p>
-<p style="padding-left: 30px;"><a href="https://lcgamboa.github.io/">PICSimLab</a> (開源)</p>
-<p>3D 列印與模擬工具</p>
-<p style="padding-left: 30px;">G-code based 列印模擬:</p>
-<p style="padding-left: 60px;"><a href="https://github.com/sudipchakraborty/A-simulated-3D-Printer-In-CoppeliaSim">https://github.com/sudipchakraborty/A-simulated-3D-Printer-In-CoppeliaSim</a> (<a href="https://zenodo.org/record/5897079">Paper</a>)</p>
-<p style="padding-left: 60px;"><a href="https://github.com/mdecourse/gsim">https://github.com/mdecourse/gsim</a> (執行需要 PyGObject, <a href="https://mde.tw/wcm2022/content/Project5.html">參考</a>)</p>
-<p style="padding-left: 60px;"><a href="https://github.com/mdecourse/FIBR3DEmul">https://github.com/mdecourse/FIBR3DEmul</a> (CoppeliaSim plugin in Cpp, <a href="/downloads/FIBR3DEmul—an open-access simulation solution for 3D printing processes of FDM machines with 3 plus actuated axes.pdf">paper)</a></p>
-<p style="padding-left: 60px;">G-code processing:</p>
-<p style="padding-left: 90px;"><a href="https://github.com/mdecourse/gcode_machine">https://github.com/mdecourse/gcode_machine</a></p>
-<p style="padding-left: 30px;">3D Printer based 列印模擬:</p>
-<p style="padding-left: 60px;"><a href="https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/">https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/</a></p>
-<p>雷射切割模擬工具:</p>
-<p style="padding-left: 30px;"><a href="https://github.com/mdecourse/papercraft">https://github.com/mdecourse/papercraft</a>  (Unfold STL for laser cutting)</p>
-<h2>Website</h2>
-<p>倉儲 (Repository) and 網站 (Website)</p>
-<p>使用分散式版次管理系統中的倉儲建立協同設計網站的特性:</p>
-<ol>
-<li>可清楚記錄每一位成員對於協同設計流程的貢獻細節.</li>
-<li>網頁中納入 <a href="http://mde.tw/eng/content/Development.html">Disqus</a>, 可提升各頁面的互動性.</li>
-<li>利用 Github, Gitlab, Bitbucket 與 Fossil SCM 同步協同設計倉儲內容, 可提升數位資料保全.</li>
-<li>可回朔設計流程中的任一版本, 並呈現改版說明註記, 讓新成員自行研究探索.</li>
-</ol>
-<p>每一成員均以 SSH 推送版本至各小組與各大組倉儲, 也可以採用<a href="https://github.com/mdecourse/cad2021_final/tree/main/downloads">程式方法</a>集結成員改版內容.</p>
-<h4>SSH push 基本概念:</h4>
-<p>以 git 作為帳號, 利用 secure shell 指令登入 github.com, 一旦近端的 private key 與 github.com 網站上使用者事先存放的 public key 屬於同一對, 則取得將近端版本推向 github.com 伺服器的權限, 對倉儲內容進行改版.</p>
-<p>在近端若使用 Windows 操作系統, 可以採用 Putty 當作執行 secure shell 指令的工具, 但必須在啟動可攜系統時, 便透過 git 指令內建的系統環境變數 GIT_SSH 設為 plink.exe 所在路徑. 之後 git 就可透過 putty 以 secure shell 的方式推送版本.</p>
-<p>而利用 putty 推送版本的過程需要網路連線與近端 private key 的所在路徑. 網路連線若在近端使用 IPv6 則必須額外設計能支援  IPv6 串接到 IPv4 網路協定的代理主機 (因為截至目前 github.com 只支援 IPv4 網路協定). 至於近端的 private key 必須是 putty 能讀取的格式, 而放到 github.com 上的 public key 則必須是 github.com 認可的 OpenSSH 格式.</p>
-<h2>Brython</h2>
+<h2>SSH</h2>
+<hr/>
+<p>如何使用SSH進行推送</p>
+<hr/><h1>W2 - GROUP</h1>
+<p>導入班級成員資料後，利用程式進行隨機分組並將各組員倉儲、網站列表</p>
 <p><a href="https://github.com/orgs/siemens/repositories?q=&amp;type=all&amp;language=python">Siemens and Python related repositories</a></p>
 <p>
 <script src="/static/brython.js">
@@ -483,6 +464,16 @@ doc["tetris"].bind("click", tetris.do)
 </p>
 <p></p>
 <p></p>
-<h1>NX1980</h1>
+<h1>W3 - NX1980</h1>
+<hr/>
+<p>w3 任務</p>
+<p><span>透過 NX1980 版本功能的教學影片(</span><a href="https://www.youtube.com/watch?v=GUaa97tALxE&amp;list=PLzEsJue49U_EMMv0eBo8MNJjJOq_WHCrl">連結</a><span>)，學習使用NX1980 </span></p>
+<p><strong>37</strong></p>
+<p><span></span></p>
+<p><strong>38</strong></p>
+<hr/>
+<h1>W6 - BLOG</h1>
+<hr/>
+<p>創立BLOG</p>
+<hr/>
 <p></p>
-<h4></h4>

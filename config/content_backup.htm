@@ -1,48 +1,32 @@
 <h1>About</h1>
+<hr/>
 <p>協同產品設計實習</p>
-<p>網頁: <a href="https://mde.tw/cd2022">https://mde.tw/cd2022</a></p>
-<p>倉儲: <a href="https://github.com/mdecycu/cd2022">https://github.com/mdecycu/cd2022</a></p>
-<p>討論區: <a href="https://gitter.im/mdecourse/cd2022">https://gitter.im/mdecourse/cd2022</a></p>
-<p>導引: <a href="https://mde.tw/cd2022_guide">https://mde.tw/cd2022_guide</a></p>
-<h4></h4>
-<p></p><h2>Realizable</h2>
-<p>以 4 人一小組, 兩小組成一大組的方式, 透過計算機程式方法 (執行運算及操控) 與電腦輔助設計的建模流程, 完成可實現之機電整合系統設計 (Realizable Mechatronic System Design).</p>
-<p>機械元件建模工具:</p>
-<p style="padding-left: 30px;"><a href="https://mde.tw/cad2021/content/Compile%20Solvespace.html">Solvespace</a> (開源)、<a href="https://mde.tw/cad2021_hw/content/NX1980.html">NX1980</a> (高端)、<a href="https://www.onshape.com/en/">Onshape</a> (全雲端)</p>
-<p>電子電機控制與感測模擬工具:</p>
-<p style="padding-left: 30px;"><a href="https://link.springer.com/book/10.1007/978-1-4842-3462-4">Beginning Robotics with Raspberry Pi and Arduino</a> (在校園網路下載)</p>
-<p style="padding-left: 30px;">Wokwi (web-based):</p>
-<p style="padding-left: 60px;"><a href="https://wokwi.com/">https://wokwi.com/</a></p>
-<p style="padding-left: 60px;"><a href="https://github.com/wokwi">https://github.com/wokwi</a></p>
-<p style="padding-left: 60px;"><a href="https://github.com/wokwi">https://github.com/wokwi</a></p>
-<p style="padding-left: 60px;"><a href="https://wokwi.com/arduino/libraries/Servo/Sweep">Servo motor 控制</a></p>
-<p style="padding-left: 30px;"><a href="https://www.sites.google.com/site/unoardusim/services">Unoardusim</a> (單機)</p>
-<p style="padding-left: 30px;"><a href="https://lcgamboa.github.io/">PICSimLab</a> (開源)</p>
-<p>3D 列印與模擬工具</p>
-<p style="padding-left: 30px;">G-code based 列印模擬:</p>
-<p style="padding-left: 60px;"><a href="https://github.com/sudipchakraborty/A-simulated-3D-Printer-In-CoppeliaSim">https://github.com/sudipchakraborty/A-simulated-3D-Printer-In-CoppeliaSim</a> (<a href="https://zenodo.org/record/5897079">Paper</a>)</p>
-<p style="padding-left: 60px;"><a href="https://github.com/mdecourse/gsim">https://github.com/mdecourse/gsim</a> (執行需要 PyGObject, <a href="https://mde.tw/wcm2022/content/Project5.html">參考</a>)</p>
-<p style="padding-left: 60px;"><a href="https://github.com/mdecourse/FIBR3DEmul">https://github.com/mdecourse/FIBR3DEmul</a> (CoppeliaSim plugin in Cpp, <a href="/downloads/FIBR3DEmul—an open-access simulation solution for 3D printing processes of FDM machines with 3 plus actuated axes.pdf">paper)</a></p>
-<p style="padding-left: 60px;">G-code processing:</p>
-<p style="padding-left: 90px;"><a href="https://github.com/mdecourse/gcode_machine">https://github.com/mdecourse/gcode_machine</a></p>
-<p style="padding-left: 30px;">3D Printer based 列印模擬:</p>
-<p style="padding-left: 60px;"><a href="https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/">https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/</a></p>
-<p>雷射切割模擬工具:</p>
-<p style="padding-left: 30px;"><a href="https://github.com/mdecourse/papercraft">https://github.com/mdecourse/papercraft</a>  (Unfold STL for laser cutting)</p><h2>Website</h2>
-<p>倉儲 (Repository) and 網站 (Website)</p>
-<p>使用分散式版次管理系統中的倉儲建立協同設計網站的特性:</p>
-<ol>
-<li>可清楚記錄每一位成員對於協同設計流程的貢獻細節.</li>
-<li>網頁中納入 <a href="http://mde.tw/eng/content/Development.html">Disqus</a>, 可提升各頁面的互動性.</li>
-<li>利用 Github, Gitlab, Bitbucket 與 Fossil SCM 同步協同設計倉儲內容, 可提升數位資料保全.</li>
-<li>可回朔設計流程中的任一版本, 並呈現改版說明註記, 讓新成員自行研究探索.</li>
-</ol>
-<p>每一成員均以 SSH 推送版本至各小組與各大組倉儲, 也可以採用<a href="https://github.com/mdecourse/cad2021_final/tree/main/downloads">程式方法</a>集結成員改版內容.</p>
-<h4>SSH push 基本概念:</h4>
-<p>以 git 作為帳號, 利用 secure shell 指令登入 github.com, 一旦近端的 private key 與 github.com 網站上使用者事先存放的 public key 屬於同一對, 則取得將近端版本推向 github.com 伺服器的權限, 對倉儲內容進行改版.</p>
-<p>在近端若使用 Windows 操作系統, 可以採用 Putty 當作執行 secure shell 指令的工具, 但必須在啟動可攜系統時, 便透過 git 指令內建的系統環境變數 GIT_SSH 設為 plink.exe 所在路徑. 之後 git 就可透過 putty 以 secure shell 的方式推送版本.</p>
-<p>而利用 putty 推送版本的過程需要網路連線與近端 private key 的所在路徑. 網路連線若在近端使用 IPv6 則必須額外設計能支援  IPv6 串接到 IPv4 網路協定的代理主機 (因為截至目前 github.com 只支援 IPv4 網路協定). 至於近端的 private key 必須是 putty 能讀取的格式, 而放到 github.com 上的 public key 則必須是 github.com 認可的 OpenSSH 格式.</p>
-<h2>Brython</h2>
+<p>網頁: <a href="https://40723146.github.io/cd2022/content/index.html">https://40723146.github.io/cd2022/content/index.html</a></p>
+<p>倉儲: <a href="https://github.com/40723146/cd2022">https://github.com/40723146/cd2022</a></p>
+<p>小組倉儲:<a href="https://40923221.github.io/cd2022bg4/content/index.html">https://40923221.github.io/cd2022bg4/content/index.html</a></p>
+<hr/>
+<p></p>
+<h2>Create Page</h2>
+<hr/>
+<p>1. 在 github 建立倉儲<span>，</span>git clone 到近端</p>
+<p><span style="color: #ffffff;">1</span></p>
+<p>2. 參考 <a href="https://github.com/mdecycu/cd2022">https://github.com/mdecycu/cd2022</a> 加入除了 cmsimde 目錄外的所有內容</p>
+<p>    git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde建立 cmsimde 目錄<span>，</span></p>
+<p>    並從 github 取下子模組內容.</p>
+<p><span style="color: #ffffff;">1</span></p>
+<p>3. 在近端維護時, 更換目錄到倉儲中的 cmsimde<span>，</span></p>
+<p>    以 python wsgi.py 啟動近端網際伺服器，</p>
+<p>    進到網頁修改內容，修改完成後以 generate_pages 轉為靜態內容<span>，</span>將內容推到遠端</p>
+<p><span style="color: #ffffff;">1</span></p>
+<p>P.S. 之後若要以 git clone 取下包含 submodule 的所有內容<span>，</span></p>
+<p>      執行:git clone --recurse-submodules<span> </span><a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
+<hr/>
+<p></p>
+<h2>SSH</h2>
+<hr/>
+<p>如何使用SSH進行推送</p>
+<hr/><h1>W2 - GROUP</h1>
+<p>導入班級成員資料後，利用程式進行隨機分組並將各組員倉儲、網站列表</p>
 <p><a href="https://github.com/orgs/siemens/repositories?q=&amp;type=all&amp;language=python">Siemens and Python related repositories</a></p>
 <p>
 <script src="/static/brython.js">
@@ -481,54 +465,16 @@ doc["tetris"].bind("click", tetris.do)
 </p>
 <p></p>
 <p></p>
-<h1>NX1980</h1>
+<h1>W3 - NX1980</h1>
+<hr/>
+<p>w3 任務</p>
+<p><span>透過 NX1980 版本功能的教學影片(</span><a href="https://www.youtube.com/watch?v=GUaa97tALxE&amp;list=PLzEsJue49U_EMMv0eBo8MNJjJOq_WHCrl">連結</a><span>)，學習使用NX1980 </span></p>
+<p><strong>37</strong></p>
+<p><span></span></p>
+<p><strong>38</strong></p>
+<hr/>
+<h1>W6 - BLOG</h1>
+<hr/>
+<p>創立BLOG</p>
+<hr/>
 <p></p>
-<h4></h4><h1>Onshape</h1>
-<p>Why Onshape?</p>
-<p>為什麼採用 Onshape?</p>
-<p>優點:</p>
-<ol>
-<li>只要電腦 GPU 顯示卡等級符合要求, 可以直接以瀏覽器開啟, 使用最新版本, 近端電腦無需任何額外套件安裝.</li>
-<li>多人可以直接在線上協同零組件繪圖, 所完成的零組件可以直接透過 URL 分享.</li>
-<li>設計繪圖流程具備版次管理, 使用者可以像使用 git 的版次管理系統進行零組件特徵管理.</li>
-<li>所有檔案全部採雲端儲存, 使用者繪圖過程無需存檔.</li>
-<li>提供 Featurescript, 使用者可以透過類似 Typescript (Javascript) 程式語言的方式建立客製化參數特徵.</li>
-</ol>
-<p>缺點:</p>
-<ol>
-<li>沒有網路就無法進行設計繪圖</li>
-<li>對一般用戶只提供特徵層級的二次開發, 更進階的零組件或延伸開發, 只提供給特定商務用戶.</li>
-</ol>
-<h1>Programming</h1>
-<p><a href="https://www.toptal.com/robotics/programming-a-robot-an-introductory-tutorial">https://www.toptal.com/robotics/programming-a-robot-an-introductory-tutorial</a></p>
-<p><a href="https://github.com/mdecourse/sobot-rimulator">https://github.com/mdecourse/sobot-rimulator</a></p>
-<p><a href="http://mde.tw/4072pj3/content/%E7%92%B0%E5%A2%83%E4%BF%AE%E6%AD%A3.html">Python 編譯環境修正</a></p>
-<p><a href="http://mde.tw/cad2020/content/HW1_NX.html">Python 與 NXOpen Python API</a></p><h1>Downloads</h1>
-<p>綜合第一工程館八樓電腦輔助設計室純 IPv6 網路設定: <a href="https://mde.tw/wcm2022/content/Network.html">https://mde.tw/wcm2022/content/Network.html</a></p>
-<h4>CoppeliaSim:</h4>
-<p>CoppeliaSim Edu may ONLY be used by educational entities composed by following people and institutions:</p>
-<p style="padding-left: 30px;">students, teachers and professors<br/>schools and universities</p>
-<p>Educational entities do NOT include companies, research institutions, non-profit organisations, foundations, etc.</p>
-<p>An educational entity may use CoppeliaSim Edu under following conditions:</p>
-<p style="padding-left: 30px;">usage should be non-commercial</p>
-<p>cd2022 downloads are provided by cd2022 At mde</p>
-<p>Coppeliasim 4.3.0</p>
-<p style="padding-left: 30px;">內建 script 除了支援 Lua, 同時<a href="https://www.coppeliarobotics.com/helpFiles/en/luaPythonDifferences.htm">支援 Python</a> (<a href="https://www.coppeliarobotics.com/helpFiles/en/scripts.htm">Scripts in Lua and Python</a>), 但需在啟動前設定 system/usrset.txt 中的 defaultPython =  Y:/Python395/python.exe, 且安裝 <a href="https://pyzmq.readthedocs.io/en/latest/">pyzmq</a> 與 <a href="https://pypi.org/project/cbor/">cbor</a> 等模組.</p>
-<p style="padding-left: 30px;">pip install pyzmq cbor</p>
-<p style="padding-left: 30px;"><a href="https://www.coppeliarobotics.com/helpFiles/en/apiFunctions.htm">regular api reference</a></p>
-<hr/>
-<h4>Fossil and Solvespace:</h4>
-<p><a href="https://drive.google.com/file/d/1BVd92GyKWgom2b9Uvi84WujHQPSrdFbU/view?usp=sharing">fossil.exe and solvespace.exe</a> (self-compiled version)</p>
-<hr/>
-<h4>NX1980:</h4>
-<p><a href="https://drive.google.com/file/d/17wDJd6AeMhwrOzWGO_o8afCEsFKh3Hy9/view">NX1980 portable</a> (for @gm users only, file size: 3 GB, extracted size: 15.2 GB)</p>
-<hr/>
-<h4>Compile CoppliaSim Portable System:</h4>
-<p><a href="https://drive.google.com/file/d/16L08jH3ZtoMeeGWBJrP9DuIk-cby_Wqw/view?usp=sharing">compile_copsim_for_cd2022.7z</a> (file size: 5 GB, extracted size: 17.3 GB), 包含除了 NX1980 之外的所有課程相關可攜程式套件.</p>
-<p>下載 <a href="https://drive.google.com/file/d/1Av_AlOG33lsXDCZnePooj6MGbItuq22p/view?usp=sharing">PUTTY_0.76.7z</a> (下載 1 MB, 解開壓縮後 4.36 MB)</p>
-<p style="padding-left: 30px;">請注意!! 版本很重要, 使用 PUTTY 0.74 建立的 keys, 無法在 0.76 版中使用.</p>
-<hr/>
-<h4>Webots</h4>
-<p><a href="https://cyberbotics.com/doc/guide/webots-license-agreement">Webots 使用授權</a>較 <a href="https://www.coppeliarobotics.com/helpFiles/en/licensing.htm">CoppeliaSim 使用授權</a>寬鬆.</p>
-<p>Webots 對於全球資訊網的支援( <a href="https://robotbenchmark.net/">https://robotbenchmark.net/</a>) 較 CoppeliaSim 佳 (CoppeliaSim 自 4.3.0 rev2 透過 <a href="https://github.com/CoppeliaRobotics/threejsFrontend">three.js</a>, <a href="https://www.coppeliarobotics.com/helpFiles/en/externalFrontEnd.htm">支援瀏覽器前端展示</a>).</p>
-<p>CoppeliaSim 執行時所需獨立顯卡的要求 (<a href="https://forum.coppeliarobotics.com/viewtopic.php?t=1707">requirements</a>) 較 Webots (<a href="https://cyberbotics.com/doc/guide/system-requirements">requirements</a>) 低.</p>
