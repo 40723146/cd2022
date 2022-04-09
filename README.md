@@ -1,7 +1,8 @@
-# cd2022
+# cd2022 協同產品設計實習
 
-[![Join the chat at https://gitter.im/mdecourse/cd2022](https://badges.gitter.im/mdecourse/cd2022.svg)](https://gitter.im/mdecourse/cd2022?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+網頁: https://40723146.github.io/cd2022/content/index.html
 
-2022 Spring 協同產品設計實習課程倉儲與網頁
+倉儲: https://github.com/40723146/cd2022
 
-https://mde.tw/cd2022
+小組倉儲:https://40923221.github.io/cd2022bg4/content/index.html
+
