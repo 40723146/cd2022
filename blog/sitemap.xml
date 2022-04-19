@@ -4,63 +4,70 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>./</loc>
-<lastmod>2022-04-20T02:01:49-00:00</lastmod>
+<loc>https://40723146.github.io/cd2022/blog/index.html/</loc>
+<lastmod>2022-04-20T02:49:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./archives.html</loc>
-<lastmod>2022-04-20T02:01:49-00:00</lastmod>
+<loc>https://40723146.github.io/cd2022/blog/index.html/archives.html</loc>
+<lastmod>2022-04-20T02:49:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tags.html</loc>
-<lastmod>2022-04-20T02:01:49-00:00</lastmod>
+<loc>https://40723146.github.io/cd2022/blog/index.html/tags.html</loc>
+<lastmod>2022-04-20T02:49:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./categories.html</loc>
-<lastmod>2022-04-20T02:01:49-00:00</lastmod>
+<loc>https://40723146.github.io/cd2022/blog/index.html/categories.html</loc>
+<lastmod>2022-04-20T02:49:08-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./pages/about/</loc>
+<loc>https://40723146.github.io/cd2022/blog/index.html/pages/about/</loc>
 <lastmod>2022-04-19T22:55:38+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./w7_summary.html.html</loc>
-<lastmod>2022-04-20T01:57:46+08:00</lastmod>
+<loc>https://40723146.github.io/cd2022/blog/index.html/w6_40723146.html</loc>
+<lastmod>2022-04-20T02:47:14+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./category/misc.html</loc>
+<loc>https://40723146.github.io/cd2022/blog/index.html/w7_summary.html</loc>
+<lastmod>2022-04-20T02:11:20+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://40723146.github.io/cd2022/blog/index.html/category/misc.html</loc>
 <lastmod>2022-08-13T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/2022.html</loc>
+<loc>https://40723146.github.io/cd2022/blog/index.html/tag/2022.html</loc>
 <lastmod>2022-08-13T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./author/40723146.html</loc>
+<loc>https://40723146.github.io/cd2022/blog/index.html/author/40723146.html</loc>
 <lastmod>2022-08-13T11:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
