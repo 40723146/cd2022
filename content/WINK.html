@@ -2,6 +2,7 @@
         <head>
         <title>cd2022</title>
         <meta charset="utf-8">
+<meta property="head" content="H1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -138,12 +139,38 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content"> <a href='Create Page.html'>Next</a> >> Create Page<br /><h1>About</h1>
-<p>協同產品設計實習</p>
-<p><a href="https://github.com/40723146/cd2022">倉儲</a></p>
-<p><a href="https://40923221.github.io/cd2022bg4/content/index.html">小組網頁</a> <a href="https://github.com/40923221/cd2022bg4">小組倉儲</a></p>
+    <div id="tipue_search_content">NX1980 << <a href='NX1980.html'>Previous</a> <a href='BLOG.html'>Next</a> >> BLOG<br /><h1>WINK</h1>
+<p>利用WINK能夠對影片需要說明部分來進行註解</p>
 <hr/>
-<br /> <a href='Create Page.html'>Next</a> >> Create Page</div>
+<p>打開WINK，PAUSE為擷取畫面熱鍵<span>，</span></p>
+<p>進行ffmpeg之路徑設定<span>，</span></p>
+<p>全部擷取完之後更改全部畫面解析度，解析度為1008x630<span>，</span></p>
+<p>進行標註、註解，最終進行編譯並檢查編譯結果<span>，</span></p>
+<p>編譯結果若無問題，將檔案(js , mp4 ,wnk)放入倉儲Download資料夾裡<span>，</span></p>
+<p>之後進行近端修改<span>，</span></p>
+<p>利用Source code輸入下列程式碼<span>，</span></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">&lt;p&gt;&lt;!--配合 Wink 檔案將 js 檔案設定如下--&gt;&lt;/p&gt;
+&lt;script&gt;// &lt;![CDATA[
+var winkVideoData = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, buttonFrameOffset: 2, frameStops: { }, };
+// ]]&gt;&lt;/script&gt;
+&lt;!-- 接下來將 mp4 檔案從 downloads 目錄取出 --&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" muted="true"&gt;
+&lt;source src="./../downloads/wcm_w2_2.mp4" type="video/mp4" /&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;</pre>
+<p><code class="py plain">&lt;source src</code><code class="py keyword">=</code><code class="py string">"/downloads/wcm_w2_2.mp4"</code><span> </span><code class="py functions">type</code><code class="py keyword">=</code><code class="py string">"video/mp4"</code><span> </span><code class="py keyword">/</code><code class="py plain">&gt;</code></p>
+<p><span>/downloads/<span style="color: #800000;">XXXX.mp4 <span style="color: #000000;">設定成你所想展示影片的名稱</span></span></span></p>
+<p><span><span style="color: #800000;"><span style="color: #000000;">完成之後進行推送</span></span></span></p>
+<hr/>
+<p></p><br />NX1980 << <a href='NX1980.html'>Previous</a> <a href='BLOG.html'>Next</a> >> BLOG</div>
         
     <!-- footer -->
       <div class="container">
