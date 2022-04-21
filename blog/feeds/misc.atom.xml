@@ -9,14 +9,26 @@
 &lt;p&gt;Python 可以用來控制 CoppeliaSim 與 Webots 虛擬環境中的機電系統&lt;/p&gt;
 &lt;p&gt;Python 可以用於機器學習 Keras, Pytorch&lt;/p&gt;
 &lt;h2&gt;Flutter&lt;/h2&gt;
-&lt;p&gt;Flutter 可以用來開發跨 Apple 與 Android 手機與平板上的 Apps&lt;/p&gt;</content><category term="Misc"></category><category term="2022"></category></entry><entry><title>W7</title><link href="./w7_summary.html" rel="alternate"></link><published>2022-08-14T11:00:00+08:00</published><updated>2022-04-20T04:09:18+08:00</updated><author><name>40723146</name></author><id>tag:None,2022-08-14:./w7_summary.html</id><summary type="html">&lt;p&gt;2020 Fall 計算機程式的教學主要介紹 Python 與 Flutter 在機械設計流程中的應用.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2020 Fall 計算機程式的教學主要介紹 Python 與 Flutter 在機械設計流程中的應用.&lt;/p&gt;
+&lt;p&gt;Flutter 可以用來開發跨 Apple 與 Android 手機與平板上的 Apps&lt;/p&gt;</content><category term="Misc"></category><category term="2022"></category></entry><entry><title>W7</title><link href="./w7_summary.html" rel="alternate"></link><published>2022-08-14T11:00:00+08:00</published><updated>2022-04-21T12:56:52+08:00</updated><author><name>40723146</name></author><id>tag:None,2022-08-14:./w7_summary.html</id><content type="html">&lt;h2&gt;問題&lt;/h2&gt;
+&lt;p&gt;如何集結各大組組員在各週所完成的工作進度?&lt;/p&gt;
+&lt;p&gt;為何要在大組倉儲中建立 Reveal 投影片與 Pelican Blog? (git blame 用法)&lt;/p&gt;
+&lt;p&gt;可以利用 Leo Editor 延續開發 scarysim 程式功能嗎? (與 VScode 比較, 或者直接在 VScode 中使用 Leo Editor, leointeg)&lt;/p&gt;</content><category term="Misc"></category><category term="2022"></category></entry><entry><title>MID</title><link href="./midterm.html" rel="alternate"></link><published>2022-04-16T11:00:00+08:00</published><updated>2022-04-21T12:55:04+08:00</updated><author><name>40723146</name></author><id>tag:None,2022-04-16:./midterm.html</id><summary type="html"></summary><content type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
-
-&lt;h2&gt;Python&lt;/h2&gt;
-&lt;p&gt;Python 可以用來開發單機版的視窗程式套件 Pyslvs-UI&lt;/p&gt;
-&lt;p&gt;Python 可以用來開發網際版的內容管理系統 CMSiMDE&lt;/p&gt;
-&lt;p&gt;Python 可以用來控制 CoppeliaSim 與 Webots 虛擬環境中的機電系統&lt;/p&gt;
-&lt;p&gt;Python 可以用於機器學習 Keras, Pytorch&lt;/p&gt;
-&lt;h2&gt;Flutter&lt;/h2&gt;
-&lt;p&gt;Flutter 可以用來開發跨 Apple 與 Android 手機與平板上的 Apps&lt;/p&gt;</content><category term="Misc"></category><category term="2022"></category></entry></feed>
+&lt;h2&gt;ONSHAPE&lt;/h2&gt;
+&lt;p&gt;https://cad.onshape.com/documents/44519f83fb530f91debc3c6a/w/9809b99cf52de126097a6f82/e/e2eec2764faf9f522f647be6?renderMode=0&amp;amp;uiState=6260e18ca6ad86739190786b&lt;/p&gt;
+&lt;p&gt;任務一: 請依照下列步驟編譯 simExtMtb plugin 專案:&lt;/p&gt;
+&lt;p&gt;w7_project.7z&lt;/p&gt;
+&lt;p&gt;編譯 simExtMtb plugin:&lt;/p&gt;
+&lt;p&gt;針對 simExtMtb.pro:&lt;/p&gt;
+&lt;p&gt;CoppeliaSim 4.1.0 原始碼編譯專案 (登入 @gm OneDrive 後下載).
+E:\downloads\cop410\programming\simExtMTB&amp;gt;qmake -o Makefile simExtMtb.pro
+E:\downloads\cop410\programming\simExtMTB&amp;gt;mingw32-make -f Makefile.Release
+在 release 目錄中取得 simExtMtb.dll, 啟動前放入 Coppeliasim 根目錄.
+任務二: 請各組依照下列零件檔案, 將組員分為三組, 分別以 Solvespace, NX (12, 1980 或 2008) 及 Onshape, 完成各零件工程圖與組合圖後, 將 uarm 組合件轉為 STL 格式後轉入 CoppeliaSim, 並安排以 GUI Slider 方式控制前三軸作動. 各組員需將零組件繪製過程與 CoppeliaSim 操控流程及心得, 寫為 Pelican Blog 與 Reveal.js 簡報, 並在期中考週將個人與分組網誌與簡報流程透過 Wink 製作為 mp4 影片嵌入個人與分組網頁, 流程中的 cmsimde H1 頁面命名為 midterm, 而網誌命名為 midterm.html, 簡報則採 index.html 命名.&lt;/p&gt;
+&lt;p&gt;查驗項目:&lt;/p&gt;
+&lt;p&gt;uarm 各零件工程圖
+uarm 組合圖
+uarm 組合圖 STL 格式轉入 CoppeliaSim
+GUI slider 控制前三軸作動
+cmsimde 中第一階頁面, 標題為 midterm
+網誌名稱為 midterm.html&lt;/p&gt;</content><category term="Misc"></category><category term="2022"></category></entry></feed>

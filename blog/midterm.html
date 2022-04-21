@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>40723146 CMSIMDE - Authors</title>
+  <title>MID</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -18,6 +18,7 @@
 
   <!-- Feed -->
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="40723146 CMSIMDE Full Atom Feed" />
+          <link href="./feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="40723146 CMSIMDE Categories Atom Feed" />
 
   <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
 
@@ -39,27 +40,48 @@
   <![endif]-->
 
 
+    <link href="./midterm.html" rel="canonical" />
+
+
+        <meta name="author" content="40723146">
+
+        <meta name="tags" content="2022">
+
+
 
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="40723146 CMSIMDE"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="40723146 CMSIMDE"/>
-<meta property="og:description" content="View the blog."/>
+<meta property="og:title" content="MID"/>
+<meta property="og:description" content=""/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="./"/>
-<meta property="og:image" content="./theme/images/home-bg.jpg">
+<meta property="og:url" content="./midterm.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2022-04-16 11:00:00+08:00"/>
+<meta property="article:modified_time" content="2022-04-21 12:55:04+08:00"/>
+<meta property="article:author" content="./author/40723146.html">
+<meta property="article:section" content="Misc"/>
+<meta property="article:tag" content="2022"/>
+<meta property="og:image" content="./theme/images/post-bg.jpg">
 
 <!-- Twitter Card -->
 
 <script type="application/ld+json">
 {
-  "@context" : "http://schema.org",
-  "@type" : "Website",
-  "name": " 40723146 CMSIMDE ",
-  "url" : "./",
-  "image": "./theme/images/home-bg.jpg",
-  "description": "View the blog."
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "MID",
+  "headline": "MID",
+  "datePublished": "2022-04-16 11:00:00+08:00",
+  "dateModified": "2022-04-21 12:55:04+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "40723146",
+    "url": "./author/40723146.html"
+  },
+  "image": "./theme/images/post-bg.jpg",
+  "url": "./midterm.html",
+  "description": ""
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -157,19 +179,31 @@ init_mathjax();
     </ul>
   </div>
 </nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header id="blog-header" class="has-cover">
+    <header id="post-header" class="has-cover">
       <div class="inner">
         <nav id="navigation">
             <span id="home-button" class="nav-button">
-                <a class="home-button" href="./" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+                <a class="home-button" href="./index.html" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
             </span>
           <span id="menu-button" class="nav-button">
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">Articles by </h1>
+        <h1 class="post-title">MID</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="./author/40723146.html">40723146</a>
+            | <time datetime="週六 16 四月 2022">週六 16 四月 2022</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <span class="post-meta"> | Updated on 週四 21 四月 2022</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -183,15 +217,71 @@ init_mathjax();
     </form>
 </section>
 
-      <article class="post">
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
         <div class="inner">
-            <a href="./author/40723146.html" rel="bookmark">
-                <h2 class="post-title">
-                    40723146 (3)
-                </h2>
-            </a>
-        </div>
-      </article>
+            <section class="post-content">
+                <!-- PELICAN_END_SUMMARY -->
+
+<h2>ONSHAPE</h2>
+<p>https://cad.onshape.com/documents/44519f83fb530f91debc3c6a/w/9809b99cf52de126097a6f82/e/e2eec2764faf9f522f647be6?renderMode=0&amp;uiState=6260e18ca6ad86739190786b</p>
+<p>任務一: 請依照下列步驟編譯 simExtMtb plugin 專案:</p>
+<p>w7_project.7z</p>
+<p>編譯 simExtMtb plugin:</p>
+<p>針對 simExtMtb.pro:</p>
+<p>CoppeliaSim 4.1.0 原始碼編譯專案 (登入 @gm OneDrive 後下載).
+E:\downloads\cop410\programming\simExtMTB&gt;qmake -o Makefile simExtMtb.pro
+E:\downloads\cop410\programming\simExtMTB&gt;mingw32-make -f Makefile.Release
+在 release 目錄中取得 simExtMtb.dll, 啟動前放入 Coppeliasim 根目錄.
+任務二: 請各組依照下列零件檔案, 將組員分為三組, 分別以 Solvespace, NX (12, 1980 或 2008) 及 Onshape, 完成各零件工程圖與組合圖後, 將 uarm 組合件轉為 STL 格式後轉入 CoppeliaSim, 並安排以 GUI Slider 方式控制前三軸作動. 各組員需將零組件繪製過程與 CoppeliaSim 操控流程及心得, 寫為 Pelican Blog 與 Reveal.js 簡報, 並在期中考週將個人與分組網誌與簡報流程透過 Wink 製作為 mp4 影片嵌入個人與分組網頁, 流程中的 cmsimde H1 頁面命名為 midterm, 而網誌命名為 midterm.html, 簡報則採 index.html 命名.</p>
+<p>查驗項目:</p>
+<p>uarm 各零件工程圖
+uarm 組合圖
+uarm 組合圖 STL 格式轉入 CoppeliaSim
+GUI slider 控制前三軸作動
+cmsimde 中第一階頁面, 標題為 midterm
+網誌名稱為 midterm.html</p>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=MID&amp;url=./midterm.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=./midterm.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=./midterm.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="./tag/2022.html">2022</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <a class="post-nav-next" href="./w7_summary.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-left"></i>
+                                <h2 class="post-nav-title">W7</h2>
+                            <p class="post-nav-excerpt">問題 如何集結各大組組員在各週所完成的工作進度? 為何要在大組倉儲中建立 Reveal 投影片與 Pelican Blog? (git blame 用法) 可以利用 Leo...</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
       <!-- TODO : Body class -->
     <div id="body-class" style="display: none;" class=""></div>
 
